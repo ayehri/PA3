@@ -69,7 +69,7 @@ c. Cyclinders for Camazro Z28
     - Returns only the cyl column
 
 d. Cylinders and Gear of Specific Models
-  cars.loc[(cars['Model'].isin(['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Civic']), ['cyl','gear'])]
+    cars.loc[(cars['Model'].isin(['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Civic']), ['cyl','gear'])]
     - .isin([]) checks if the Model is one of the listed cars.
     - Prints only the cyl and gear columns for those models.
 
